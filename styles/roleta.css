@@ -1,0 +1,77 @@
+
+
+@media screen and ( min-width: 1024px) {
+     .carta {
+        width: 40%;
+        margin: 2em auto;
+     }
+}
+.vendidos__titulo{
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.descrição2__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.nome__autora {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.carta {
+    background: var(--branco);
+    box-shadow: 0px 4px 0px rgb(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    padding: 1em;
+}
+
+.descrição2__texto {
+    font-size: 14px;
+}
+
+.botões__item {
+    margin: 0.1em;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2em 1em 2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.carta__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.carta__botões {
+    display: flex;
+    justify-content: space-between;
+}
